@@ -1,7 +1,7 @@
 
 interface bike
 {
- 	int speed = 60;
+ 	int time = 40;
 	public void coverDistance();
 }
 interface car
@@ -15,12 +15,12 @@ class TwoWheeler implements bike,car
 @Override
 public void speed()
 {
-System.out.println("Speed "+distance/speed);
+System.out.println("Speed "+distance/time+"m/s");
 }
 @Override
 public void coverDistance()
 {
-System.out.println("Distance "+speed*distance);
+System.out.println("Distance "+distance+"m");
 }
 
 }

@@ -1,7 +1,7 @@
 
 interface bike
 {
- 	int time = 40;
+ 	int time = 30;
 	public void coverDistance();
 }
 interface car
